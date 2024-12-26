@@ -14,7 +14,10 @@ import { HomeContactComponent } from './shared/home-contact/home-contact.compone
 import { HomeComponent } from './components/home/home.component';
 import { SeoComponent } from './components/seo/seo.component';
 import { AccordionsComponent } from './shared/accordions/accordions.component';
+import { ServicesComponent } from './shared/services/services.component';
 import { TestimonialsComponent } from './shared/testimonials/testimonials.component';
+import { ConsultationComponent } from './shared/consultation/consultation.component';
+
 
 
 @NgModule({
@@ -31,7 +34,9 @@ import { TestimonialsComponent } from './shared/testimonials/testimonials.compon
     HomeComponent,
     SeoComponent,
     AccordionsComponent,
-    TestimonialsComponent
+    ServicesComponent,
+    TestimonialsComponent,
+    ConsultationComponent,
   ],
   imports: [
     CommonModule,

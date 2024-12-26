@@ -1,5 +1,8 @@
 
 .section_accordians{
+  background: #f7f7f7;
+  padding: 70px 0px;
+  margin-top: 70px;
     .accordion-item{
       .accordion-header{
         button{
@@ -35,3 +38,18 @@
   .accordion {
     z-index: 10; /* Ensure accordion appears above the banner */
   }
+
+  button {
+    transition: all 0.3s;
+  }
+
+  button:after {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+  }
+  
+  button:hover{
+   padding: 10px 45px;
+  }
+

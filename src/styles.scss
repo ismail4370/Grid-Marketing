@@ -20,5 +20,46 @@ $primary: #ff5733;
     color: #aa4b41;
 }
 
+.custom-btn {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+  }
+  
+  .custom-btn{
+    position: relative;
+  }
+  
+  .custom-btn:after {
+    content: '⟶';
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    opacity: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease; 
+  }
+  
+  .custom-btn:hover{
+   padding: 10px 25px;
+  }
+  
+  .custom-btn:hover:after {
+    opacity: 1;
+  }
+
+  .custom-btn span {
+    display: inline-block;
+    transition: transform 0.3s ease; 
+  }
+  
+  .custom-btn:hover span {
+    transform: translateX(-15px); 
+  }
+
 
 

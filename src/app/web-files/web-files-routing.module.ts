@@ -17,10 +17,8 @@ const routes: Routes = [
       path:'home',
       component:HomeComponent,
     },
-    {
-      path:'search-engine-optimization',
-      component:SeoComponent,
-    },
+    { path: 'search-engine-optimization',
+     component: SeoComponent },
   ]
   }
 ];

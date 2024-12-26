@@ -1,0 +1,12 @@
+<div class="container mt-3">
+    <div class="row service-content">
+      <div *ngFor="let item of serviceContent" class="col-md-3 ml-3">
+        <div class="logo-heading">
+            <i [class]="item.icon"></i>
+            <h3>{{ item.title }}</h3>
+        </div>
+        <p class="mt-2">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+  
