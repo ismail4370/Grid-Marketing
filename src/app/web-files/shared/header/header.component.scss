@@ -1,0 +1,148 @@
+nav{
+    background: white;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    &.is-active {
+      background-color: white;
+      box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.178);
+      position: fixed;
+      background-color: white;
+      animation: slideDown 0.35s ease-out;
+    }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  a{
+    padding:7px 5px !important;
+    display: flex;
+    align-items: center;
+    color: #4d4d4d;
+    &:hover{
+      span{
+        background: #a84c44;
+        i{
+          color: white;
+        }
+      }
+    }
+}
+}
+
+.scroll_top{
+    padding: 6px 15px !important;
+     position: fixed;
+      right: -100%;
+      bottom: 0;
+       z-index: 9999999;
+       transition: .9s;
+       background: #aa4b41;
+    &.show{
+      right: 0;
+    }
+  }
+  
+  
+  
+
+header{
+    position: sticky;
+}
+
+
+.navbar-collapse{
+    gap: 10px;
+    .navbar-nav{
+        gap: 15px;
+    }
+}
+
+.nav-tab{
+    background: #a84c44;
+    li{
+        margin-right: 10px;
+       
+            a{
+                color: #ffffff;
+                &:hover{
+                    color: #000;
+                }
+            }
+    }
+}
+.nav-tab button{
+    border: none;
+    color: white;
+    border-radius: 3px;
+    color: #000;
+    font-weight: 600;
+}
+
+.dropdown{
+    position: unset;
+}
+
+.dropdown-menu{
+    padding: 15px 25px 10px;
+    border-radius: 3px;
+    left: 70%;
+    top: 100% !important;
+    width: auto;
+}
+
+
+header{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .15);
+}
+
+.dropdown-menu li{
+    width: 100%;
+}
+
+.dropdown-item{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+   align-items: center;
+}
+
+.dropdown-item span{
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   gap: 10px;
+}
+
+.item_info{
+    transition: transform 0.3s ease;
+    padding-left: 20px;
+}
+
+.dropdown-item:hover .item_info{
+    transform: translateX(4px);
+    color: #a84c44;
+    p{
+        color: #000;
+        word-break: break-all;
+    }
+}
+
+.dropdown_nav span{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    i{
+        font-size: 20px;
+    }
+}

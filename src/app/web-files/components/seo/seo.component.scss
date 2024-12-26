@@ -1,0 +1,15 @@
+.bg_banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack the children vertically */
+    align-items: stretch; /* Ensure full width */
+  }
+  
+  app-banner-section {
+    flex: 0 1 auto; /* Prevent the banner from stretching */
+  }
+  
+  app-accordions {
+    flex: 1  auto; /* Allow the accordion to expand and take remaining space */
+  }
+  

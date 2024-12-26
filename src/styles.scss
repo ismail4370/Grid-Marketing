@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: #ff5733;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    scroll-behavior: smooth
+}
+
+.old-bootstrap {
+    @import '~bootstrap@4.6.2/dist/css/bootstrap.min.css';
+  }
+  
+
+.bg-theme{
+    background: #aa4b41;
+}
+
+.clr-theme{
+    color: #aa4b41;
+}
+
+
+

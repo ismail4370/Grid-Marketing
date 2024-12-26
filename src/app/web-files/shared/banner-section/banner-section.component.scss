@@ -1,0 +1,51 @@
+.banner_filter{
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px 20px;
+    background-color: white;
+    input,textarea,select, select option{
+      color: #4d4d4d;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 0 !important;
+      &:focus{
+        outline: none;
+        box-shadow: none;
+        border: 1px solid #7BCD75;
+      }
+    }
+    span{
+      border-radius: 0;
+      i{
+        font-size: 13px;
+      }
+    }
+}
+
+
+.bg_banner {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+  }
+  
+
+  .bg_banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+  }
+  
+
+  .bg_banner .container {
+    position: relative;
+    z-index: 2; 
+  }
+  

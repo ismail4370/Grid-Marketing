@@ -1,0 +1,109 @@
+
+<ul class="nav justify-content-end align-items-center nav-tab">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-links" href="#">Register</a>
+    </li>
+  </ul>
+  
+  <button class="scroll_top btn btn_brand"
+  (click)="scrollToTop()"
+  [class.show]="isVisible">
+    <i class="fs-12 fa-solid fa-angles-up"></i>
+  </button>
+  
+  <header [class]="headerClass">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" routerLink="/home"><img src="../../../../assets/logo/logo-removebg-preview (1) (2).png" alt="" style="background-size: contain;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-weight: 600;">
+            <li class="nav-item mobile_view">
+              <a class="nav-link active" aria-current="page" routerLink="/home"><img src="../../../../assets/images/header_icons/footer_logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span></span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/blogs">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Marketing Solution
+              </a>
+              <div class="dropdown-menu container" aria-labelledby="navbarDropdown">
+                    <div class="dropdown_nav">
+                      <li>
+                        <a class="dropdown-item" routerLink="search-engine-optimization">
+                        <span><i class="fa-brands fa-searchengin"></i></span>
+                          <div class="item_info">
+                            <h6>Search Engine Optimization</h6>
+                          </div>
+                        </a>
+                        </li>
+                        <li>
+                        <a class="dropdown-item" routerLink="paid-search">
+                        <span><i class="fa-solid fa-rectangle-ad"></i></span>
+                        <div class="item_info">
+                          <h6>Search Engine Advertising</h6>
+                        </div>
+                      </a>
+                        </li>
+                        <li>
+                      <a class="dropdown-item" routerLink="social-media">
+                      <span><i class="fa-solid fa-at"></i></span>
+                      <div class="item_info">
+                        <h6>Social Media Marketing</h6> 
+                      </div>
+                    </a>
+                        </li>
+                        <li>
+                      <a class="dropdown-item" routerLink="reputation-management">
+                      <span><i class="fa-solid fa-ranking-star"></i></span>
+                      <div class="item_info">
+                        <h6>Web Development & Design</h6>
+                      </div>
+                    </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" routerLink="branding-logo">
+                        <span><i class="fa-solid fa-file-pen"></i></span>
+                          <div class="item_info">
+                            <h6>Content Marketing</h6>
+                          </div>
+                        </a>
+                        </li>
+                        <li>
+                        <a class="dropdown-item" routerLink="website-hosting">
+                        <span><i class="fa-solid fa-people-roof"></i></span>
+                        <div class="item_info">
+                          <h6>Digital Marketing Strategy</h6>
+                        </div>
+                      </a>
+                        </li>
+                    </div>
+  
+              </div>
+            </li>
+            
+           
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/blogs">Blogs</a>
+            </li>
+            <a routerLink="/contact" class="btn btn_brand" style="font-weight: 600;">Get Started</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
